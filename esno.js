@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const { execSync, execFileSync } = require('child_process')
-const path = require('path')
+const { execSync } = require('child_process')
 const { existsSync } = require('fs')
+const path = require('path')
 
 const local = existsSync(path.join(__dirname, 'node_modules'))
 
