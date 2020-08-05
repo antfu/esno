@@ -1,5 +1,6 @@
 dependencies:
-  esbuild-register: 1.0.2
+  esbuild: 0.6.16
+  esbuild-register: 1.0.2_esbuild@0.6.16
   esm: 3.2.25
 lockfileVersion: 5.1
 packages:
@@ -7,8 +8,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
-  /esbuild-register/1.0.2:
+  /esbuild-register/1.0.2_esbuild@0.6.16:
     dependencies:
+      esbuild: 0.6.16
       joycon: 2.2.5
       pirates: 4.0.1
       source-map-support: 0.5.19
@@ -18,6 +20,12 @@ packages:
       esbuild: ^0.6.3
     resolution:
       integrity: sha512-2znPqwdKSTl70zcpOlEnuNj56KVS0nUFJQ+IX4Ogj6AyXOi98V/LZ65k+/LQ8VTiQCazBiYq97izFwGiNaP1Og==
+  /esbuild/0.6.16:
+    dev: false
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-Jm4aJYAk4uBP2RssDe/rvYCrpGkfOJ5tPBZUF6da62pUtyzk8/RVwXZB4q8dxjYLKZNmY4lYJRpWY+wT3kme1w==
   /esm/3.2.25:
     dev: false
     engines:
@@ -64,5 +72,6 @@ packages:
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 specifiers:
+  esbuild: ^0.6.16
   esbuild-register: ^1.0.2
   esm: ^3.2.25

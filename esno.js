@@ -14,6 +14,9 @@ execSync(
     'node_modules',
     'esbuild-register',
     'register.js'
-  )} ${argv.slice(2)}`,
+  )} ${process.argv
+    .slice(2)
+    .map((i) => `"${i}"`)
+    .join(' ')}`,
   { stdio: 'inherit' }
 )
