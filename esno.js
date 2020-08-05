@@ -4,13 +4,11 @@ const { execSync } = require('child_process')
 const { existsSync } = require('fs')
 const path = require('path')
 
-const local = existsSync(path.join(__dirname, 'node_modules'))
-
-const esm = local
+const esm = existsSync(path.join(__dirname, 'node_modules', 'esm'))
   ? path.join(__dirname, 'node_modules', 'esm', 'index.js')
   : path.join(__dirname, '..', 'esm', 'index.js')
 
-const register = local
+const register = existsSync(path.join(__dirname, 'node_modules', 'esbuild-register'))
   ? path.join(__dirname, 'node_modules', 'esm', 'index.js')
   : path.join(__dirname, '..', 'esbuild-register', 'register.js')
 
