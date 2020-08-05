@@ -1,0 +1,68 @@
+dependencies:
+  esbuild-register: 1.0.2
+  esm: 3.2.25
+lockfileVersion: 5.1
+packages:
+  /buffer-from/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  /esbuild-register/1.0.2:
+    dependencies:
+      joycon: 2.2.5
+      pirates: 4.0.1
+      source-map-support: 0.5.19
+      strip-json-comments: 3.1.1
+    dev: false
+    peerDependencies:
+      esbuild: ^0.6.3
+    resolution:
+      integrity: sha512-2znPqwdKSTl70zcpOlEnuNj56KVS0nUFJQ+IX4Ogj6AyXOi98V/LZ65k+/LQ8VTiQCazBiYq97izFwGiNaP1Og==
+  /esm/3.2.25:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
+  /joycon/2.2.5:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
+  /node-modules-regexp/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
+  /pirates/4.0.1:
+    dependencies:
+      node-modules-regexp: 1.0.0
+    dev: false
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==
+  /source-map-support/0.5.19:
+    dependencies:
+      buffer-from: 1.1.1
+      source-map: 0.6.1
+    dev: false
+    resolution:
+      integrity: sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
+  /source-map/0.6.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+  /strip-json-comments/3.1.1:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+specifiers:
+  esbuild-register: ^1.0.2
+  esm: ^3.2.25
