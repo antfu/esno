@@ -1,6 +1,6 @@
 <h2 align='center'>esno</h2>
 
-<p align='center'>TS/JS node runtime powered by esbuild</p>
+<samp align='center'>TS/JS node runtime powered by esbuild</samp>
 
 ## Usage
 
@@ -8,10 +8,31 @@
 npx esno hello.ts
 ```
 
-or install globally
+#### Install globally
 
 ```bash
 npm i -g esno
 
 esno index.ts
+```
+
+#### Install as dependency
+
+```bash
+npm i esno
+```
+
+```json
+{
+  "scripts": {
+    "start": "esno index.ts"
+  },
+  "dependencies": {
+    "esno": "*"
+  }
+}
+```
+
+```bash
+npm run start
 ```
