@@ -1,6 +1,10 @@
-<h2 align='center'>esno</h2>
+<h2 align='center'>
+<samp>esno</samp>
+</h2>
 
-<samp align='center'>TS/JS node runtime powered by esbuild</samp>
+<p align='center'>
+<samp>TS/JS node runtime powered by esbuild</samp>
+</p>
 
 ## Usage
 
