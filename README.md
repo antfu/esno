@@ -3,7 +3,7 @@
 </h2>
 
 <p align='center'>
-  <samp>TS/JS node runtime powered by <a href='https://github.com/evanw/esbuild'>esbuild</a></samp>
+  <samp>TypeScript / ESNext node runtime powered by <a href='https://github.com/evanw/esbuild'>esbuild</a></samp>
 <br>
 <br>
 <a href='https://www.npmjs.com/package/esno'>
