@@ -1,10 +1,14 @@
 dependencies:
   esbuild: 0.6.16
-  esbuild-register: /@knightly/esbuild-register/0.0.0-knightly-pr5.202010160954_esbuild@0.6.16
+  esbuild-register: 1.1.0_esbuild@0.6.16
   esm: 3.2.25
 lockfileVersion: 5.1
 packages:
-  /@knightly/esbuild-register/0.0.0-knightly-pr5.202010160954_esbuild@0.6.16:
+  /buffer-from/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  /esbuild-register/1.1.0_esbuild@0.6.16:
     dependencies:
       esbuild: 0.6.16
       joycon: 2.2.5
@@ -15,11 +19,7 @@ packages:
     peerDependencies:
       esbuild: ^0.6.3
     resolution:
-      integrity: sha512-iD32xg5k2SAa8PDW7O1sOB0faPTiIawxDhBHxnzp1ud3SSmVt6etRjJeMamwwJmt+HHxbWiGUX3VwlTgRBL7qw==
-  /buffer-from/1.1.1:
-    dev: false
-    resolution:
-      integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+      integrity: sha512-A+KGHDc7me/ATyNqnVQKsHxt2A/ORVvV2gmukx5ZtVcy5HVf19QBbHdfdP5QHFA8rF/WHmcnDxaxewu+VUvUhQ==
   /esbuild/0.6.16:
     dev: false
     hasBin: true
@@ -72,6 +72,6 @@ packages:
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 specifiers:
-  esbuild: ^0.6.16
-  esbuild-register: 'npm:@knightly/esbuild-register@pr5'
+  esbuild: ^0.7.15
+  esbuild-register: ^1.1.0
   esm: ^3.2.25
