@@ -6,8 +6,8 @@
   "repository": "https://github.com/antfu/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "dependencies": {
-    "esbuild": "^0.7.17",
-    "esbuild-register": "^1.1.0",
+    "esbuild": "^0.8.17",
+    "esbuild-register": "^1.1.1",
     "esm": "^3.2.25"
   },
   "bin": {
