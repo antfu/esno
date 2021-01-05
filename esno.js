@@ -2,7 +2,6 @@
 
 const { execSync } = require('child_process')
 
-const esm = require.resolve('esm')
 const register = require.resolve('esbuild-register')
 
 const argv = process.argv
@@ -10,4 +9,4 @@ const argv = process.argv
   .map((i) => `"${i}"`)
   .join(' ')
 
-execSync(`node -r ${esm} -r ${register} ${argv}`, { stdio: 'inherit' })
+execSync(`node -r ${register} ${argv}`, { stdio: 'inherit' })

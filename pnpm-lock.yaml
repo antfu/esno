@@ -1,37 +1,30 @@
 dependencies:
-  esbuild: 0.6.16
-  esbuild-register: 1.1.0_esbuild@0.6.16
-  esm: 3.2.25
-lockfileVersion: 5.1
+  esbuild: 0.8.29
+  esbuild-register: 1.2.1_esbuild@0.8.29
+lockfileVersion: 5.2
 packages:
   /buffer-from/1.1.1:
     dev: false
     resolution:
       integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
-  /esbuild-register/1.1.0_esbuild@0.6.16:
+  /esbuild-register/1.2.1_esbuild@0.8.29:
     dependencies:
-      esbuild: 0.6.16
+      esbuild: 0.8.29
       joycon: 2.2.5
       pirates: 4.0.1
       source-map-support: 0.5.19
       strip-json-comments: 3.1.1
     dev: false
     peerDependencies:
-      esbuild: ^0.6.3
+      esbuild: '>=0.8.0'
     resolution:
-      integrity: sha512-A+KGHDc7me/ATyNqnVQKsHxt2A/ORVvV2gmukx5ZtVcy5HVf19QBbHdfdP5QHFA8rF/WHmcnDxaxewu+VUvUhQ==
-  /esbuild/0.6.16:
+      integrity: sha512-Pg00Woeg+2hpRyZkxSjvBUIabQ6DZIdCUgeBCzWgYfiFCnetQF8Cmrr5/+M/rMJCP/trhNlV0Kc4KnbYssIrFg==
+  /esbuild/0.8.29:
     dev: false
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-Jm4aJYAk4uBP2RssDe/rvYCrpGkfOJ5tPBZUF6da62pUtyzk8/RVwXZB4q8dxjYLKZNmY4lYJRpWY+wT3kme1w==
-  /esm/3.2.25:
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
+      integrity: sha512-UDsEoeXuctVgG2hEts1Hwq2jYDGqV7nksEHEZaiCy2v+lXF5ButX4ErPAJAFi5ZNKKW+6Pom93pArV7hki6HnQ==
   /joycon/2.2.5:
     dev: false
     engines:
@@ -72,6 +65,5 @@ packages:
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 specifiers:
-  esbuild: ^0.7.15
-  esbuild-register: ^1.1.0
-  esm: ^3.2.25
+  esbuild: ^0.8.29
+  esbuild-register: ^1.2.1
