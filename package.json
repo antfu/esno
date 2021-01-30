@@ -5,6 +5,9 @@
   "license": "MIT",
   "repository": "https://github.com/antfu/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "scripts": {
+    "release": "npx bumpp --tag --commit --push && npm publish"
+  },
   "dependencies": {
     "esbuild": "^0.8.37",
     "esbuild-register": "^2.0.0",
