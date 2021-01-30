@@ -1,42 +1,123 @@
 dependencies:
-  esbuild: 0.8.29
-  esbuild-register: 1.2.1_esbuild@0.8.29
+  esbuild: 0.8.37
+  esbuild-register: 2.0.0_esbuild@0.8.37
+  execa: 5.0.0
 lockfileVersion: 5.2
 packages:
   /buffer-from/1.1.1:
     dev: false
     resolution:
       integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
-  /esbuild-register/1.2.1_esbuild@0.8.29:
+  /cross-spawn/7.0.3:
     dependencies:
-      esbuild: 0.8.29
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+    dev: false
+    engines:
+      node: '>= 8'
+    resolution:
+      integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  /esbuild-register/2.0.0_esbuild@0.8.37:
+    dependencies:
+      esbuild: 0.8.37
       joycon: 2.2.5
       pirates: 4.0.1
       source-map-support: 0.5.19
       strip-json-comments: 3.1.1
     dev: false
     peerDependencies:
-      esbuild: '>=0.8.0'
+      esbuild: '>=0.8.31'
     resolution:
-      integrity: sha512-Pg00Woeg+2hpRyZkxSjvBUIabQ6DZIdCUgeBCzWgYfiFCnetQF8Cmrr5/+M/rMJCP/trhNlV0Kc4KnbYssIrFg==
-  /esbuild/0.8.29:
+      integrity: sha512-98i1+7OnCURCbKaWw5wnY05e4v7uknFEER7LtVxi/lCs8U+sl6/LnITvfeoDLrsqxlA3O6BjxK8QqsirfYULfA==
+  /esbuild/0.8.37:
     dev: false
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-UDsEoeXuctVgG2hEts1Hwq2jYDGqV7nksEHEZaiCy2v+lXF5ButX4ErPAJAFi5ZNKKW+6Pom93pArV7hki6HnQ==
+      integrity: sha512-F8kPr56HZmmKy0mHOXyStvEXEIvaluHlXJTYiLrwdDh1cnl/RhLp6F/dnR+mOsoKLLt3O9qYZfaAPBtm1e8Pfw==
+  /execa/5.0.0:
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 6.0.0
+      human-signals: 2.1.0
+      is-stream: 2.0.0
+      merge-stream: 2.0.0
+      npm-run-path: 4.0.1
+      onetime: 5.1.2
+      signal-exit: 3.0.3
+      strip-final-newline: 2.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==
+  /get-stream/6.0.0:
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
+  /human-signals/2.1.0:
+    dev: false
+    engines:
+      node: '>=10.17.0'
+    resolution:
+      integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+  /is-stream/2.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==
+  /isexe/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
   /joycon/2.2.5:
     dev: false
     engines:
       node: '>=6'
     resolution:
       integrity: sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
+  /merge-stream/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
+  /mimic-fn/2.1.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
   /node-modules-regexp/1.0.0:
     dev: false
     engines:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
+  /npm-run-path/4.0.1:
+    dependencies:
+      path-key: 3.1.1
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
+  /onetime/5.1.2:
+    dependencies:
+      mimic-fn: 2.1.0
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
+  /path-key/3.1.1:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
   /pirates/4.0.1:
     dependencies:
       node-modules-regexp: 1.0.0
@@ -45,6 +126,24 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==
+  /shebang-command/2.0.0:
+    dependencies:
+      shebang-regex: 3.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
+  /shebang-regex/3.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
+  /signal-exit/3.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
   /source-map-support/0.5.19:
     dependencies:
       buffer-from: 1.1.1
@@ -58,12 +157,28 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+  /strip-final-newline/2.0.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
   /strip-json-comments/3.1.1:
     dev: false
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+  /which/2.0.2:
+    dependencies:
+      isexe: 2.0.0
+    dev: false
+    engines:
+      node: '>= 8'
+    hasBin: true
+    resolution:
+      integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
 specifiers:
-  esbuild: ^0.8.29
-  esbuild-register: ^1.2.1
+  esbuild: ^0.8.37
+  esbuild-register: ^2.0.0
+  execa: ^5.0.0

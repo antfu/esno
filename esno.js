@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process')
+const execa = require('execa')
 
 const register = require.resolve('esbuild-register')
 
@@ -9,4 +9,4 @@ const argv = process.argv
   .map((i) => `"${i}"`)
   .join(' ')
 
-execSync(`node -r ${register} ${argv}`, { stdio: 'inherit' })
+execa.commandSync(`node -r ${register} ${argv}`, { stdio: 'inherit' })
