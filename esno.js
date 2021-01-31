@@ -9,4 +9,4 @@ const argv = process.argv
   .map((i) => `"${i}"`)
   .join(' ')
 
-execa.commandSync(`node -r ${register} ${argv}`, { stdio: 'inherit', stderr: 'inherit' })
+execa.commandSync(`node -r ${register} ${argv}`, { stdio: 'inherit' })
