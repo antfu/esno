@@ -9,8 +9,8 @@
     "release": "npx bumpp --tag --commit --push && npm publish"
   },
   "dependencies": {
-    "esbuild": "^0.8.53",
-    "esbuild-register": "^2.0.0"
+    "esbuild": "^0.8.56",
+    "esbuild-register": "^2.2.0"
   },
   "bin": {
     "esno": "esno.js"
