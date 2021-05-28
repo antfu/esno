@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const { spawnSync } = require('child_process')
+const spawn = require('cross-spawn')
+const spawnSync = spawn.sync
 
 const register = require.resolve('esbuild-register')
 

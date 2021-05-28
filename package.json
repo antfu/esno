@@ -9,6 +9,7 @@
     "release": "npx bumpp --tag --commit --push && npm publish"
   },
   "dependencies": {
+    "cross-spawn": "^7.0.3",
     "esbuild": "^0.9.2",
     "esbuild-register": "^2.2.0"
   },
