@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "esbuild": "^0.9.2",
-    "esbuild-register": "^2.2.0"
+    "esbuild": "^0.12.5",
+    "esbuild-register": "^2.5.0"
   },
   "bin": {
     "esno": "esno.js"

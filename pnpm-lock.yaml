@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   cross-spawn: ^7.0.3
-  esbuild: ^0.9.2
-  esbuild-register: ^2.2.0
+  esbuild: ^0.12.5
+  esbuild-register: ^2.5.0
 
 dependencies:
   cross-spawn: 7.0.3
-  esbuild: 0.9.2
-  esbuild-register: 2.2.0_esbuild@0.9.2
+  esbuild: 0.12.5
+  esbuild-register: 2.5.0
 
 packages:
 
@@ -21,17 +21,21 @@ packages:
       which: 2.0.2
     dev: false
 
-  /esbuild-register/2.2.0_esbuild@0.9.2:
-    resolution: {integrity: sha512-27039YMtpC3lI8yYGGm78SAQBtBo/4IPMReWVsNh4++VtvozmasBd1a2HiTdk0297iuA2pMzrzvL5cZJqQCKxQ==}
-    peerDependencies:
-      esbuild: '>=0.8.31'
+  /esbuild-register/2.5.0:
+    resolution: {integrity: sha512-5a8W3rH7IQbIPR9pPXJFkC3+CRMtm/OSpBz3hkWUUU63oPZ3NU6dVDGfaIjKnRizCTIRoGjNE6KEDt5p1sLwEw==}
     dependencies:
-      esbuild: 0.9.2
+      esbuild: 0.11.23
       jsonc-parser: 3.0.0
     dev: false
 
-  /esbuild/0.9.2:
-    resolution: {integrity: sha512-xE3oOILjnmN8PSjkG3lT9NBbd1DbxNqolJ5qNyrLhDWsFef3yTp/KTQz1C/x7BYFKbtrr9foYtKA6KA1zuNAUQ==}
+  /esbuild/0.11.23:
+    resolution: {integrity: sha512-iaiZZ9vUF5wJV8ob1tl+5aJTrwDczlvGP0JoMmnpC2B0ppiMCu8n8gmy5ZTGl5bcG081XBVn+U+jP+mPFm5T5Q==}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+
+  /esbuild/0.12.5:
+    resolution: {integrity: sha512-vcuP53pA5XiwUU4FnlXM+2PnVjTfHGthM7uP1gtp+9yfheGvFFbq/KyuESThmtoHPUrfZH5JpxGVJIFDVD1Egw==}
     hasBin: true
     requiresBuild: true
     dev: false
