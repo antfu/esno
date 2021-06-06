@@ -1,9 +1,9 @@
-<h2 align='center'>
+<h1 align='center'>
 <samp>esno</samp> / <samp>esmo</samp>
-</h2>
+</h1>
 
 <p align='center'>
-  <samp>TypeScript / ESNext node runtime</samp>
+  <samp>TypeScript / ESNext node runtime powered by esbuild</samp>
 <br>
 <br>
 <a href='https://www.npmjs.com/package/esno'>
