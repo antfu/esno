@@ -1,25 +1,29 @@
 {
-  "name": "esno",
+  "name": "esmo",
   "description": "TS/JS Node powered by esbuild",
   "version": "0.7.0",
   "license": "MIT",
   "repository": "https://github.com/antfu/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "scripts": {
-    "release": "npx bumpp --tag --commit --push && npm publish"
+    "release": "npx bumpp --tag --commit --push && node esmo.mjs publish.ts"
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "esbuild": "^0.12.5",
+    "esbuild": "^0.12.6",
     "esbuild-node-loader": "^0.0.0",
     "esbuild-register": "^2.5.0"
   },
   "bin": {
     "esno": "esno.js",
-    "esmo": "esmo.js"
+    "esmo": "esmo.mjs"
   },
   "files": [
     "esno.js",
-    "esmo.js"
-  ]
+    "esmo.mjs"
+  ],
+  "devDependencies": {
+    "fsxx": "^0.0.5",
+    "zx": "^1.14.1"
+  }
 }
