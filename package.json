@@ -1,7 +1,7 @@
 {
   "name": "esmo",
   "description": "TS/JS Node powered by esbuild",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "license": "MIT",
   "repository": "https://github.com/antfu/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
