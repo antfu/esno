@@ -5,4 +5,4 @@ const spawnSync = spawn.sync
 
 const argv = process.argv.slice(2)
 
-spawnSync('node', ['--experimental-loader', 'esbuild-node-loader', ...argv], { stdio: 'inherit' })
+process.exit(spawnSync('node', ['--experimental-loader', 'esbuild-node-loader', ...argv], { stdio: 'inherit' }).status)
