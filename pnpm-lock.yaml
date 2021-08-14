@@ -4,7 +4,7 @@ specifiers:
   cross-spawn: ^7.0.3
   esbuild: ^0.12.8
   esbuild-node-loader: ^0.1.1
-  esbuild-register: ^2.6.0
+  esbuild-register: ^3.0.0
   fsxx: ^0.0.5
   zx: ^1.14.1
 
@@ -12,7 +12,7 @@ dependencies:
   cross-spawn: 7.0.3
   esbuild: 0.12.8
   esbuild-node-loader: 0.1.1
-  esbuild-register: 2.6.0
+  esbuild-register: 3.0.0_esbuild@0.12.8
 
 devDependencies:
   fsxx: 0.0.5
@@ -116,8 +116,10 @@ packages:
       esbuild: 0.12.8
     dev: false
 
-  /esbuild-register/2.6.0:
-    resolution: {integrity: sha512-2u4AtnCXP5nivtIxZryiZOUcEQkOzFS7UhAqibUEmaTAThJ48gDLYTBF/Fsz+5r0hbV1jrFE6PQvPDUrKZNt/Q==}
+  /esbuild-register/3.0.0_esbuild@0.12.8:
+    resolution: {integrity: sha512-No7U3ZUd6gPrrC6gqdb3XFcf2lNqzn8nvQXcgcyOl8szMVuN6YUvOplnmakxWyogI9d8SiJMl0uzBzJck+Aoxw==}
+    peerDependencies:
+      esbuild: '>=0.12 <1'
     dependencies:
       esbuild: 0.12.8
       jsonc-parser: 3.0.0
