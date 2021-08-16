@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   cross-spawn: ^7.0.3
   esbuild: ^0.12.20
-  esbuild-node-loader: ^0.3.0
+  esbuild-node-loader: ^0.3.1
   esbuild-register: ^3.0.0
   fsxx: ^0.0.5
   zx: ^3.0.0
@@ -11,7 +11,7 @@ specifiers:
 dependencies:
   cross-spawn: 7.0.3
   esbuild: 0.12.20
-  esbuild-node-loader: 0.3.0
+  esbuild-node-loader: 0.3.1
   esbuild-register: 3.0.0_esbuild@0.12.20
 
 devDependencies:
@@ -132,8 +132,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /esbuild-node-loader/0.3.0:
-    resolution: {integrity: sha512-XAe2OHCaPJNVScDTXUx7z0Eq+0ECM/yKOIx1CEKYiXa0ujhY7++QGl/TBTa0cuHVfkVUni54XES3rGvzA2WYmA==}
+  /esbuild-node-loader/0.3.1:
+    resolution: {integrity: sha512-75xPOySulti9R5LwYOMmKiwHyXGr/f89I7UkHolLxRqeBiUNqcyCmNTjv+fO2WV9G3f7LDKVZJlbWoYh5LBpfQ==}
     dependencies:
       esbuild: 0.12.20
     dev: false
