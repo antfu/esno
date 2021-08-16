@@ -11,7 +11,7 @@
   "dependencies": {
     "cross-spawn": "^7.0.3",
     "esbuild": "^0.12.20",
-    "esbuild-node-loader": "^0.3.0",
+    "esbuild-node-loader": "^0.3.1",
     "esbuild-register": "^3.0.0"
   },
   "bin": {
