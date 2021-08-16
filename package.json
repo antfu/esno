@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "esbuild": "^0.12.8",
-    "esbuild-node-loader": "^0.1.1",
-    "esbuild-register": "^2.6.0"
+    "esbuild": "^0.12.20",
+    "esbuild-node-loader": "^0.3.0",
+    "esbuild-register": "^3.0.0"
   },
   "bin": {
     "esno": "esno.js",
@@ -24,6 +24,6 @@
   ],
   "devDependencies": {
     "fsxx": "^0.0.5",
-    "zx": "^1.14.1"
+    "zx": "^3.0.0"
   }
 }
