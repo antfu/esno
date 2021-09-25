@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "esbuild": "^0.12.20",
-    "esbuild-node-loader": "^0.3.1",
+    "esbuild": "^0.13.2",
+    "esbuild-node-loader": "^0.4.0",
     "esbuild-register": "^3.0.0"
   },
   "bin": {
@@ -24,6 +24,6 @@
   ],
   "devDependencies": {
     "fsxx": "^0.0.5",
-    "zx": "^3.0.0"
+    "zx": "^4.2.0"
   }
 }
