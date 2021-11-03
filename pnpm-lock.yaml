@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   cross-spawn: ^7.0.3
   esbuild: ^0.13.3
-  esbuild-node-loader: ^0.4.2
+  esbuild-node-loader: ^0.5.0
   esbuild-register: ^3.0.0
   fsxx: ^0.0.5
   zx: ^4.2.0
@@ -11,7 +11,7 @@ specifiers:
 dependencies:
   cross-spawn: 7.0.3
   esbuild: 0.13.3
-  esbuild-node-loader: 0.4.2
+  esbuild-node-loader: 0.5.0
   esbuild-register: 3.0.0_esbuild@0.13.3
 
 devDependencies:
@@ -46,6 +46,10 @@ packages:
     dependencies:
       '@types/node': 16.6.1
     dev: true
+
+  /@types/json5/0.0.29:
+    resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    dev: false
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
@@ -224,10 +228,11 @@ packages:
     dev: false
     optional: true
 
-  /esbuild-node-loader/0.4.2:
-    resolution: {integrity: sha512-3SieWnHgnhMKwn+qG2AjQq3Yf9RrgHeKGxGLauaLKfBTCpbm4nJbUt4CV3waHcRizILzlpZbESLkY9rnFHr6/w==}
+  /esbuild-node-loader/0.5.0:
+    resolution: {integrity: sha512-NKIaYsQw2D8WoaPWv7wbCXpM3QdYr7s0v7OZhAVmp5EnXIO8H+4CoPcrR6sm+Y3MP7slQcaKxipoQJeRuhQB+Q==}
     dependencies:
       esbuild: 0.13.3
+      tsconfig-paths: 3.11.0
     dev: false
 
   /esbuild-openbsd-64/0.13.3:
@@ -422,6 +427,13 @@ packages:
   /isexe/2.0.0:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
 
+  /json5/1.0.1:
+    resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+    dev: false
+
   /jsonc-parser/3.0.0:
     resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
     dev: false
@@ -465,7 +477,6 @@ packages:
 
   /minimist/1.2.5:
     resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
-    dev: true
 
   /node-fetch/2.6.1:
     resolution: {integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==}
@@ -545,6 +556,11 @@ packages:
       duplexer: 0.1.2
     dev: true
 
+  /strip-bom/3.0.0:
+    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    engines: {node: '>=4'}
+    dev: false
+
   /supports-color/7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
@@ -562,6 +578,15 @@ packages:
     dependencies:
       is-number: 7.0.0
     dev: true
+
+  /tsconfig-paths/3.11.0:
+    resolution: {integrity: sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==}
+    dependencies:
+      '@types/json5': 0.0.29
+      json5: 1.0.1
+      minimist: 1.2.5
+      strip-bom: 3.0.0
+    dev: false
 
   /universalify/2.0.0:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
