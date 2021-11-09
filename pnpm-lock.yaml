@@ -7,17 +7,19 @@ specifiers:
   esbuild-register: ^3.1.0
   fsxx: ^0.0.5
   import-meta-resolve: ^1.1.1
+  typescript: ^4.4.4
   zx: ^4.2.0
 
 dependencies:
   cross-spawn: 7.0.3
   esbuild: 0.13.12
-  esbuild-node-loader: 0.6.0
+  esbuild-node-loader: 0.6.0_typescript@4.4.4
   esbuild-register: 3.1.0_esbuild@0.13.12
   import-meta-resolve: 1.1.1
 
 devDependencies:
   fsxx: 0.0.5
+  typescript: 4.4.4
   zx: 4.2.0
 
 packages:
@@ -43,7 +45,7 @@ packages:
       fastq: 1.11.1
     dev: true
 
-  /@rollup/plugin-typescript/8.3.0:
+  /@rollup/plugin-typescript/8.3.0_typescript@4.4.4:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -53,6 +55,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 3.1.0
       resolve: 1.20.0
+      typescript: 4.4.4
     dev: false
 
   /@rollup/pluginutils/3.1.0:
@@ -267,10 +270,10 @@ packages:
     dev: false
     optional: true
 
-  /esbuild-node-loader/0.6.0:
+  /esbuild-node-loader/0.6.0_typescript@4.4.4:
     resolution: {integrity: sha512-MqNJqfoKXRfxrXeB7E2zUiqnDcOvg7Eoai9tD9D1IXZx6P/zzsYsLMg2jXrqhJmmx9mcAvvGusQCf3o2TJDrtw==}
     dependencies:
-      '@rollup/plugin-typescript': 8.3.0
+      '@rollup/plugin-typescript': 8.3.0_typescript@4.4.4
       esbuild: 0.13.12
       joycon: 3.0.1
     transitivePeerDependencies:
@@ -668,6 +671,12 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
+    dev: true
+
+  /typescript/4.4.4:
+    resolution: {integrity: sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /universalify/2.0.0:
