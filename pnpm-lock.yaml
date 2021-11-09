@@ -6,6 +6,7 @@ specifiers:
   esbuild-node-loader: ^0.5.0
   esbuild-register: ^3.0.0
   fsxx: ^0.0.5
+  import-meta-resolve: ^1.1.1
   zx: ^4.2.0
 
 dependencies:
@@ -13,6 +14,7 @@ dependencies:
   esbuild: 0.13.3
   esbuild-node-loader: 0.5.0
   esbuild-register: 3.0.0_esbuild@0.13.3
+  import-meta-resolve: 1.1.1
 
 devDependencies:
   fsxx: 0.0.5
@@ -88,6 +90,12 @@ packages:
     dependencies:
       fill-range: 7.0.1
     dev: true
+
+  /builtins/4.0.0:
+    resolution: {integrity: sha512-qC0E2Dxgou1IHhvJSLwGDSTvokbRovU5zZFuDY6oY8Y2lF3nGt5Ad8YZK7GMtqzY84Wu7pXTPeHQeHcXSXsRhw==}
+    dependencies:
+      semver: 7.3.5
+    dev: false
 
   /chalk/4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -407,6 +415,12 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /import-meta-resolve/1.1.1:
+    resolution: {integrity: sha512-JiTuIvVyPaUg11eTrNDx5bgQ/yMKMZffc7YSjvQeSMXy58DO2SQ8BtAf3xteZvmzvjYh14wnqNjL8XVeDy2o9A==}
+    dependencies:
+      builtins: 4.0.0
+    dev: false
+
   /is-extglob/2.1.1:
     resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
     engines: {node: '>=0.10.0'}
@@ -445,6 +459,13 @@ packages:
     optionalDependencies:
       graceful-fs: 4.2.8
     dev: true
+
+  /lru-cache/6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: 4.0.0
+    dev: false
 
   /map-stream/0.1.0:
     resolution: {integrity: sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=}
@@ -527,6 +548,14 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
+  /semver/7.3.5:
+    resolution: {integrity: sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -599,6 +628,10 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
+
+  /yallist/4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: false
 
   /zx/1.15.2:
     resolution: {integrity: sha512-UvltPAK8alQ7YXxOZDWCR3m4LppUmOpB3ZpJvc4NL0YEZDikLhC9jd1pnB4Fze/4OcmF3Xff6kK+6DKeqH1efA==}
