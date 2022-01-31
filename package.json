@@ -23,6 +23,9 @@
     "esno.js",
     "esmo.mjs"
   ],
+  "peerDependencies": {
+    "typescript": "^4.0"
+  },
   "devDependencies": {
     "fsxx": "^0.0.5",
     "typescript": "^4.5.4",
