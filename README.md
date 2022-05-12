@@ -43,3 +43,5 @@ npm i esno
   }
 }
 ```
+
+Learn more at [`tsx`](https://github.com/esbuild-kit/tsx).
