@@ -1,9 +1,9 @@
 <h1 align='center'>
-<samp>esno</samp> / <samp>esmo</samp>
+<samp>esno</samp>
 </h1>
 
 <p align='center'>
-  <samp>TypeScript / ESNext node runtime powered by esbuild</samp>
+  <samp>Node.js runtime enhanced with esbuild for loading TypeScript & ESM</samp>
 <br>
 <br>
 <a href='https://www.npmjs.com/package/esno'>
@@ -11,16 +11,12 @@
 </a>
 </p>
 
-- `esno` - Node in CJS mode - by <a href='https://github.com/egoist/esbuild-register'>esbuild-register</a> 
-- `esmo` - Node in ESM mode - by <a href='https://github.com/antfu/esbuild-node-loader'>esbuild-node-loader</a>
+From v0.15, `esno` is essentially an alias of [`tsx`](https://github.com/esbuild-kit/tsx), with automated CJS/ESM mode and caching.
 
 ## Usage
 
 ```bash
 npx esno hello.ts
-
-# use with `type: module`
-npx esmo hello.ts
 ```
 
 #### Install globally
@@ -29,7 +25,6 @@ npx esmo hello.ts
 npm i -g esno
 
 esno index.ts
-esmo index.ts
 ```
 
 #### Install as dependency
@@ -42,22 +37,6 @@ npm i esno
 {
   "scripts": {
     "start": "esno index.ts"
-  },
-  "dependencies": {
-    "esno": "*"
-  }
-}
-```
-
-```bash
-npm run start
-```
-
-```json
-{
-  "type": "module",
-  "scripts": {
-    "start": "esmo index.ts"
   },
   "dependencies": {
     "esno": "*"

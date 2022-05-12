@@ -9,11 +9,7 @@
     "release": "npx bumpp --tag --commit --push && node esmo.mjs publish.ts"
   },
   "dependencies": {
-    "cross-spawn": "^7.0.3",
-    "esbuild": ">=0.13.0",
-    "esbuild-node-loader": "^0.6.5",
-    "esbuild-register": "^3.3.2",
-    "import-meta-resolve": "^1.1.1"
+    "tsx": "^2.0.1"
   },
   "bin": {
     "esno": "esno.js",
