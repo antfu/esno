@@ -9,7 +9,7 @@
     "release": "npx bumpp --tag --commit --push && node esmo.mjs publish.ts"
   },
   "dependencies": {
-    "tsx": "^2.0.1"
+    "tsx": "^3.1.0"
   },
   "bin": {
     "esno": "esno.js",
