@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-import('tsx/dist/cli.js')
+import('./node_modules/tsx/dist/cli.js')
