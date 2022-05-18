@@ -12,12 +12,10 @@
     "tsx": "^3.0.0"
   },
   "bin": {
-    "esno": "esno.js",
-    "esmo": "esmo.mjs"
+    "esno": "esno.js"
   },
   "files": [
-    "esno.js",
-    "esmo.mjs"
+    "esno.js"
   ],
   "devDependencies": {
     "fsxx": "^0.0.5",
