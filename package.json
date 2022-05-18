@@ -6,7 +6,7 @@
   "repository": "https://github.com/antfu/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "scripts": {
-    "release": "npx bumpp --tag --commit --push && node esmo.mjs publish.ts"
+    "release": "npx bumpp --tag --commit --push && tsx publish.ts"
   },
   "dependencies": {
     "tsx": "^3.0.0"
