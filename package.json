@@ -10,7 +10,7 @@
     "release": "npx bumpp --tag --commit --push && tsx publish.ts"
   },
   "dependencies": {
-    "tsx": "^3.0.0"
+    "tsx": "^3.2.1"
   },
   "bin": {
     "esno": "esno.js"
