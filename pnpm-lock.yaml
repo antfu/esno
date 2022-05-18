@@ -1,13 +1,13 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   fsxx: ^0.0.5
-  tsx: ^3.0.0
+  tsx: ^3.2.1
   typescript: ^4.5.5
   zx: ^4.3.0
 
 dependencies:
-  tsx: 3.2.0
+  tsx: 3.2.1
 
 devDependencies:
   fsxx: 0.0.5
@@ -153,6 +153,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -161,6 +162,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -169,6 +171,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -177,6 +180,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -185,6 +189,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -193,6 +198,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -201,6 +207,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -209,6 +216,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -217,6 +225,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -225,6 +234,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -233,6 +243,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -241,6 +252,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -249,6 +261,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -257,6 +270,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -265,6 +279,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -273,6 +288,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -281,6 +297,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -289,6 +306,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -297,6 +315,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -305,6 +324,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -398,6 +418,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -588,8 +609,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /tsx/3.2.0:
-    resolution: {integrity: sha512-7K/UTePojiu6wOiWXG3RiZN7PWOwJUE3aSWnFiOKJ/A5MP2VhCIZdPIJWFcsv2KC3GG8KKpvf45MTfYnvIv2gw==}
+  /tsx/3.2.1:
+    resolution: {integrity: sha512-j+Z0kzm/+WMMgbKotcOJml3hHd4Tq1Dr/V5rL82NrNP2dbq0DbyQ9TplIZ1xOZQcsZmb4W1IrK7tueGWyppJjg==}
     hasBin: true
     dependencies:
       '@esbuild-kit/cjs-loader': 2.0.0
