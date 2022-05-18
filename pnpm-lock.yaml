@@ -2,12 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   fsxx: ^0.0.5
-  tsx: ^2.0.1
+  tsx: ^3.0.0
   typescript: ^4.5.5
   zx: ^4.3.0
 
 dependencies:
-  tsx: 2.0.1
+  tsx: 3.2.0
 
 devDependencies:
   fsxx: 0.0.5
@@ -16,23 +16,23 @@ devDependencies:
 
 packages:
 
-  /@esbuild-kit/cjs-loader/1.0.0:
-    resolution: {integrity: sha512-6oPhu5QcuTsU5nO3hBCd6OdfeaGsheU6OZrQSAzBsXOiZQ+lB2Zy1bAeAPKqzVGz16kBbheW+OuL54gLD79HdA==}
+  /@esbuild-kit/cjs-loader/2.0.0:
+    resolution: {integrity: sha512-1ijCpmiCQcOcr0dmwwwCpzv0inWpNtEgiXDWc74AL52AhvY108M26suhWe9PMDcF1esnPJf0YSeVBLLZS6SQvg==}
     dependencies:
-      '@esbuild-kit/core-utils': 1.0.0
+      '@esbuild-kit/core-utils': 1.1.0
       get-tsconfig: 3.0.1
     dev: false
 
-  /@esbuild-kit/core-utils/1.0.0:
-    resolution: {integrity: sha512-OpBaYYkCxIFnTjk46dYaZplHrLXkYZvw0FporqTEPEWNJV8k2/+LTIZ1U49NdEBB33A3Ke/78KG78EoDnLENcg==}
+  /@esbuild-kit/core-utils/1.1.0:
+    resolution: {integrity: sha512-BPWlYIrfxIrjV3wzHsfOOiXgDWbh3vrveB+kr/ASTctI9tLF/k6bFo9PBiHxMGlbZCyWn8Ry3aeOB15ceHeqFw==}
     dependencies:
       esbuild: 0.14.38
     dev: false
 
-  /@esbuild-kit/esm-loader/1.0.0:
-    resolution: {integrity: sha512-fZtvhHmO0fKNHszwb9GtBr4eaBA4ZAPxDpV/oWLh0R45IgMNz7lDIGeqsDHFTwQ4LeFgOMjzRIH0JapX8FUQmQ==}
+  /@esbuild-kit/esm-loader/2.0.0:
+    resolution: {integrity: sha512-Z2wx8CF9N8lcZIL09z5HcIUbEFXzAyicNnPNhuxuDKgzwPqnXO+AjBmyGbrRdzuuLBHi512pJtl6Qi/Q2ZyYBg==}
     dependencies:
-      '@esbuild-kit/core-utils': 1.0.0
+      '@esbuild-kit/core-utils': 1.1.0
       es-module-lexer: 0.10.5
       get-tsconfig: 3.0.1
     dev: false
@@ -588,12 +588,13 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /tsx/2.0.1:
-    resolution: {integrity: sha512-qOzBwD5DkUodG7PjIUTPmRdAknYHC4jh7cOchnUScJCyayI8Cy8WqoD1rc7+zhM6x5a4YDoE5CJ+t3a92K4j2w==}
+  /tsx/3.2.0:
+    resolution: {integrity: sha512-7K/UTePojiu6wOiWXG3RiZN7PWOwJUE3aSWnFiOKJ/A5MP2VhCIZdPIJWFcsv2KC3GG8KKpvf45MTfYnvIv2gw==}
     hasBin: true
     dependencies:
-      '@esbuild-kit/cjs-loader': 1.0.0
-      '@esbuild-kit/esm-loader': 1.0.0
+      '@esbuild-kit/cjs-loader': 2.0.0
+      '@esbuild-kit/core-utils': 1.1.0
+      '@esbuild-kit/esm-loader': 2.0.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
