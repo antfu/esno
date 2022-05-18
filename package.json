@@ -2,7 +2,7 @@
   "name": "esno",
   "packageManager": "pnpm@7.1.1",
   "description": "Node.js runtime enhanced with esbuild for loading TypeScript & ESM",
-  "version": "0.16.2",
+  "version": "0.16.3",
   "license": "MIT",
   "type": "module",
   "repository": "https://github.com/antfu/esno.git",
