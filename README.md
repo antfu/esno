@@ -19,6 +19,18 @@ From v0.15, `esno` is essentially an alias of [`tsx`](https://github.com/esbuild
 npx esno hello.ts
 ```
 
+## Watch mode
+Run file and automatically re-run on changes:
+
+```sh
+npx esno watch hello.ts
+```
+
+All imported files are watched except from the following directories:
+`node_modules`, `bower_components`, `vendor`, `dist`, and `.*` (hidden directories).
+
+Press <kbd>Return</kbd> to manually re-run.
+
 #### Install globally
 
 ```bash
