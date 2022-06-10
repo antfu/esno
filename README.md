@@ -13,6 +13,8 @@
 
 From v0.15, `esno` is essentially an alias of [`tsx`](https://github.com/esbuild-kit/tsx), with automated CJS/ESM mode and caching.
 
+> Issues are disabled in this repo, they should be report in [esbuild-kit/tsx](https://github.com/esbuild-kit/tsx) instead.
+
 ## Usage
 
 ```bash
