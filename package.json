@@ -5,7 +5,7 @@
   "version": "0.16.3",
   "license": "MIT",
   "type": "module",
-  "repository": "https://github.com/antfu/esno.git",
+  "repository": "https://github.com/esbuild-kit/esno.git",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "scripts": {
     "test": "node esno.js test/*.*",
