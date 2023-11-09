@@ -11,9 +11,9 @@
 </a>
 </p>
 
-From v0.15, `esno` is essentially an alias of [`tsx`](https://github.com/esbuild-kit/tsx), with automated CJS/ESM mode and caching.
+From v0.15, `esno` is essentially an alias of [`tsx`](https://github.com/privatenumber/tsx), with automated CJS/ESM mode and caching.
 
-> Issues are disabled in this repo, they should be report in [esbuild-kit/tsx](https://github.com/esbuild-kit/tsx) instead.
+> Issues are disabled in this repo, they should be report in [privatenumber/tsx](https://github.com/privatenumber/tsx) instead.
 
 ## Usage
 
@@ -46,4 +46,4 @@ npm i esno
 }
 ```
 
-Learn more at [`tsx`](https://github.com/esbuild-kit/tsx).
+Learn more at [`tsx`](https://github.com/privatenumber/tsx).
