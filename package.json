@@ -1,6 +1,6 @@
 {
   "name": "esno",
-  "packageManager": "pnpm@8.10.2",
+  "packageManager": "pnpm@8.15.4",
   "description": "Node.js runtime enhanced with esbuild for loading TypeScript & ESM",
   "version": "4.0.0",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "release": "bumpp && tsx publish.ts"
   },
   "dependencies": {
-    "tsx": "^4.1.0"
+    "tsx": "^4.7.1"
   },
   "bin": {
     "esno": "esno.js"
@@ -21,9 +21,9 @@
     "esno.js"
   ],
   "devDependencies": {
-    "bumpp": "^9.2.0",
+    "bumpp": "^9.3.1",
     "fsxx": "^0.1.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "zx": "^7.2.3"
   }
 }
