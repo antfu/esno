@@ -5,7 +5,10 @@
   "version": "4.8.0",
   "license": "MIT",
   "type": "module",
-  "repository": "https://github.com/esbuild-kit/esno.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antfu/esno.git"
+  },
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "scripts": {
     "test": "node esno.js test/*.*",
